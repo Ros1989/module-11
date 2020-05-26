@@ -1,0 +1,22 @@
+.footer__wrapper {
+  @include center-flex('ver');
+  justify-content: space-between;
+  border-top: 1px solid rgb(229, 229, 229);
+  padding: 12px 0;
+}
+
+.footer__description {
+  font-size: $second-font-size;
+  font-family: $main-font;
+  color: $second-color;
+  line-height: $main-text-height;
+  text-align: center;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: $second-font-size;
+  font-family: $main-font;
+  color: $fourth-color;
+  line-height: $main-text-height;
+}

@@ -1,0 +1,23 @@
+.header {
+  padding-top: 26px;
+  padding-bottom: 230px;
+  background-image: linear-gradient(to top,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9)),
+    url(../../images/photo-header-min.jpg);
+  background-size: cover;
+  background-position: top center;
+  color: $main-color;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .header {
+    background-image: linear-gradient(to top,
+        rgba(252, 227, 138, 0.9),
+        rgba(243, 129, 129, 0.9)),
+      url(../../images/photo-header@2x-min.jpg);
+  }
+}

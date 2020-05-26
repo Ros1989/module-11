@@ -1,0 +1,44 @@
+.subscribe__form {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe__input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(231, 231, 231);
+  background-color: $seventh-color;
+  width: 230px;
+  height: 40px;
+  font-size: $main-font-size;
+  font-family: $second-font;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-weight: $third-font-weight;
+  line-height: $secondary-text-height;
+  text-align: left;
+  padding-left: 14px;
+
+  &[type="email"]:valid {
+    outline-color: #00ff00;
+  }
+
+  &[type="email"]:invalid {
+    outline-color: #ff0000;
+  }
+}
+
+.subscribe__button {
+  background-color: $sixth-color;
+  border: none;
+  width: 150px;
+  height: 40px;
+  font-size: $second-font-size;
+  font-family: $main-font;
+  color: $seventh-color;
+  font-weight: $secondary-font-weight;
+  text-transform: uppercase;
+  line-height: $main-text-height;
+  text-align: center;
+  padding: 0;
+}

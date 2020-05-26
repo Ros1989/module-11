@@ -1,0 +1,27 @@
+.tamplate__title {
+  font-size: $sixth-font-size;
+  max-width: 820px;
+  margin: 0 auto 110px;
+}
+
+.tamplete__title--size {
+  font-size: $fifth-font-size;
+  margin-bottom: 26px;
+}
+
+.tamplate__btn {
+  @extend %link;
+  font-size: $second-font-size;
+  text-align: center;
+  text-transform: uppercase;
+  color: $main-color;
+  margin: 0 auto;
+  padding: 12px 0;
+  border: 3px solid $main-color;
+  width: 170px;
+  transition: all 0.2s linear;
+
+  &:hover {
+    border-color: $fourth-color;
+  }
+}

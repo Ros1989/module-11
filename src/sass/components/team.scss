@@ -1,0 +1,60 @@
+.team {
+  padding: 48px 0 80px;
+}
+
+.team__description {
+  text-align: center;
+  width: 980px;
+  margin: 0 auto 92px;
+}
+
+.team__list {
+  @extend %list;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.team__item {
+  width: 380px;
+
+  &:hover .social__wrapper {
+    opacity: 1;
+  }
+
+  &:hover .team__wrapper {
+    transform: translate3d(-10px, -10px, 0);
+  }
+
+  &:hover {
+    height: 470px;
+    background-color: $sixth-color;
+    transition: 0.2s linear;
+  }
+}
+
+.team__wrapper {
+  position: relative;
+  transition: 0.2s linear;
+}
+
+.team__overlay {
+  display: block;
+  transition: 0.2s linear;
+  margin-bottom: 28px;
+}
+
+.team__name-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team__position {
+  font-size: $main-font-size;
+  font-family: $second-font;
+  font-weight: $third-font-weight;
+  color: $third-color;
+  font-style: italic;
+  line-height: $secondary-text-height;
+  text-align: center;
+}

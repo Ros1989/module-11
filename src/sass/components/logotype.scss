@@ -1,0 +1,6 @@
+.logotype {
+  @extend %link;
+  font-size: $third-font-size;
+  font-weight: $secondary-font-weight;
+  color: $main-color;
+}

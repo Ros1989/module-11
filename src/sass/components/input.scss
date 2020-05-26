@@ -1,0 +1,8 @@
+input::placeholder {
+  font-size: $main-font-size;
+  font-family: $second-font;
+  color: rgb(204, 204, 204);
+  font-style: italic;
+  line-height: $secondary-text-height;
+  text-align: left;
+}
